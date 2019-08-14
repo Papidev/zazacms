@@ -4,15 +4,15 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
-        "database": "zazacms",
-        "host": "127.0.0.1",
-        "srv": false,
+        "client": "mongo",
+        "host": "zazacluster-shard-00-00-uaaha.mongodb.net:27017,zazacluster-shard-00-01-uaaha.mongodb.net:27017,zazacluster-shard-00-02-uaaha.mongodb.net:27017/test?ssl=true&replicaSet=ZazaCluster-shard-0&authSource=admin&retryWrites=true",
         "port": 27017,
-        "username": "",
-        "password": ""
+        "database": "zazacms",
+        "username": "Luca",
+        "password": "xnUIcy1DRFmE6Kbz"
       },
       "options": {
-        "authenticationDatabase": ""
+        "ssl": true
       }
     }
   }
