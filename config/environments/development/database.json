@@ -2,7 +2,7 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-mongoose",
+      "connector": "mongoose",
       "settings": {
         "client": "mongo",
         "host": "zazacluster-shard-00-00-uaaha.mongodb.net:27017,zazacluster-shard-00-01-uaaha.mongodb.net:27017,zazacluster-shard-00-02-uaaha.mongodb.net:27017/test?ssl=true&replicaSet=ZazaCluster-shard-0&authSource=admin&retryWrites=true",

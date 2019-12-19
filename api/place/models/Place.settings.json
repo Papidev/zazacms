@@ -12,9 +12,20 @@
     ]
   },
   "attributes": {
-    "Bedrock": {
-      "group": "bedrock",
-      "type": "group"
+    "Identifier": {
+      "minLength": 5,
+      "required": true,
+      "unique": true,
+      "type": "string"
+    },
+    "Name": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "Description": {
+      "required": true,
+      "type": "string"
     }
   }
 }
